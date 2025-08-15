@@ -26,7 +26,7 @@ body {
   grid-template-rows: auto 1fr;
   background-color: var(--White);
   overflow: hidden;
-  max-width: 600px;
+  max-width: 300px;
   min-width: 200px;
   width: 100%; /* ADD THIS LINE */
 }
@@ -86,6 +86,7 @@ img {
 }
 .btn:hover {
   background-color: var(--Green-700);
+  cursor: pointer;
 }
 .btn::before {
   content: "";
@@ -99,5 +100,6 @@ img {
   .box {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    max-width: 600px;
   }
 }
